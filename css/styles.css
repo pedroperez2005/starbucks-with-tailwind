@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+        font-family: 'Sodo Sans';
+        src: url('../assets/fonts/sodo-sans/SoDoSans-Regular.ttf');
+    }
+    
+    @font-face{
+        font-family: 'Sodo Sans Black';
+        src: url('../assets/fonts/sodo-sans/SoDoSans-Black.ttf');
+    
+    }
+}
+
+
+*{
+    font-family: 'Sodo Sans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+nav {
+    img{
+    width: 50px;
+   
+}
+}
+
+.main-index {
+    section{
+        display: flex;
+        justify-content: space-between;
+        height: 450px;
+        margin-bottom: 2rem;
+        
+
+        img{
+            height: 100%;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 0 50px;
+            text-align: center;
+            width: 600px;
+
+            h2{
+                font-family: 'Sodo Sans Black', Arial, Helvetica, sans-serif;
+                font-size: 1.8rem;
+                font-weight: bolder;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
